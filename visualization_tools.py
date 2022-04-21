@@ -139,5 +139,5 @@ def visualize_simulation(Simulation,Health_Index,l_health_indexes):
     cb.set_label("Probability Density")
     fig.savefig("./plots/simulation_plot.png",dpi=400)
 
-    return
+    return fig
 
